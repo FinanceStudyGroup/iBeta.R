@@ -20,7 +20,7 @@ and
 getSymbols('LLY')
 ```
 
-to collect price data on the S&P 500 (designated "^GSPC" by Yahoo Finance), and our given stock, LLY,
+to collect price data on the S&P 500 (designated '^GSPC' by Yahoo Finance), and our given stock, LLY,
 
 then apply the function to these data, as below,
 
@@ -28,7 +28,7 @@ then apply the function to these data, as below,
 Beta(LLY, GSPC, Interval = 1, Frequency = 'Daily', Theme = 'GV')
 ```
 
-to determine the 1-year, daily beta with respect to the S&P 500,
+to determine LLY's 1-year daily beta with respect to the S&P 500,
 
 or alternatively, using the Tidyquant function call, "tq_get", built into the function, we can download the data
 within the function itself, saving on space within the global environment, as follows,
@@ -37,7 +37,7 @@ within the function itself, saving on space within the global environment, as fo
 Beta('LLY', '^GSPC', Interval = 1, Frequency = 'Daily', Theme = 'GV')
 ```
 
-where we can run, ('Daily'), ('Weekly') or ('Monthly') returns calculations with it as well.
+where we can run, 'Daily', 'Weekly' or 'Monthly' returns calculations with it as well.
 
 -----------------------------------------------------------------------------------------------------------------
 
