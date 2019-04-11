@@ -37,7 +37,7 @@ within the function itself, saving on space within the global environment, as fo
 Beta('LLY', '^GSPC', Interval = 1, Frequency = 'Daily', Theme = 'GV')
 ```
 
-where we can run, 'Daily', 'Weekly' or 'Monthly' returns calculations with it as well.
+where we can run 'Weekly' or 'Monthly' returns calculations with it as well.
 
 -----------------------------------------------------------------------------------------------------------------
 
