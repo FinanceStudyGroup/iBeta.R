@@ -1,5 +1,7 @@
 # iBeta.R
 
+![](Images/Beta.LLY.SPX.png)
+
 This is an online regression beta calculator for use in risk analysis and valuation. Along with the graph of the beta calculation,
 we've also included a numeric output, summarizing its attributes in a data frame.
 
